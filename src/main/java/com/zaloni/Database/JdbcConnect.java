@@ -10,7 +10,7 @@ public class JdbcConnect {
     {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/googledata","root","priya");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/googledata","root","deep1994");
         }
         catch(Exception e)
         {

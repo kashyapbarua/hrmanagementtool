@@ -121,7 +121,7 @@ public class Quickstart {
 
         EmployeeQuery empQ = new EmployeeQuery(); 
         Employee emp = new Employee();
-        FileWriter fw = new FileWriter("E:/employee.json");
+        FileWriter fw = new FileWriter("/home/xodiac/Documents/GitKraken/resource_manager_tool/employee.json");
         MajorDimension md= new MajorDimension();
         HashSet<Object> hs = new HashSet<Object>();
         List <Employee> EmployeeList = new ArrayList<Employee>();

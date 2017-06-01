@@ -13,7 +13,7 @@ public class CSV {
 	{
 		EmployeeQuery emp = new EmployeeQuery();
 		List<Employee> emplist = emp.getAllEmployee();
-		FileWriter fw = new FileWriter("e:\\myjdbcfile.csv");
+		FileWriter fw = new FileWriter("/home/xodiac/Documents/GitKraken/resource_manager_tool/myjdbcfile.csv");
 		Iterator<Employee> it = emplist.iterator();
 		 fw.append("Name");
 		  fw.append(',');
